@@ -1,6 +1,7 @@
 # Agritech-ESP32-MYSQL
 Este es un repositorio que almacena el código a utilizar para realizar una conexión a una base de datos Hospedada en AIVEN, con infraestructura de AWS como proveedor de Base de datos en la nube.
 # Setup
+Se utilizan datos confidenciales como usuario, hostname, contraseñas, certificados en un archivo que deberás llamar "credentials.h", por razones de seguridad, no se subirá a este repositorio y en caso de que repliques este proyecto, deberás obtener tus propias "credentials.h", las cuales son información que se encuentra mencionada en el readme.md
 requisitos previos:
 -Tener instalado y usar Arduino IDE
 -Utilizar librería ESP32-MySQL disponible en el gesto de librerías del Arduino IDE.
